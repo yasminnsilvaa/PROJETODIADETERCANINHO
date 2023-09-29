@@ -1,0 +1,52 @@
+{
+  "users": [
+  {
+  "id": 1,
+  "name": "John"
+  },
+  {
+  "id": 2,
+  "name": "Jane Smith"
+  }
+  ],
+  "posts": [
+  {
+  "id": 1,
+  "title": "Post",
+  "body": "Conteúdo do Post 1",
+  "userId": 1
+  },
+  {
+  "id": 2,
+  "title": "Post",
+  "body": "Conteúdo do Post 2",
+  "userId": 1
+  },
+  {
+  "id": 3,
+  "title": "Post",
+  "body": "Conteúdo do Post 3",
+  "userId": 2
+  }
+  ]
+  }
+
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
